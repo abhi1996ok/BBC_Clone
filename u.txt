@@ -19,7 +19,7 @@ Data  storage...
 Local Storage (Mobile Phone).. Shared prefrences... File handling 
 Server Storage (Fire Base , )
 
-
+you have to enter the password.
 
 SHARED PREFRENCES...
 ..  use non structural data storage.
