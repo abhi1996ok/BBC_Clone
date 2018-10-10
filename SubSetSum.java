@@ -1,5 +1,5 @@
 public class SubSetSum {
-	
+	//this is the subsetsum 
 	public static boolean subSetDP(int[] A, int sum) {
 		boolean[][] solution = new boolean[A.length + 1][sum + 1];		
 		// if sum is not zero and subset is 0, we can't make it 
