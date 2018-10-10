@@ -1,0 +1,58 @@
+SMS ....(saturday 14 jul)
+run time permission..
+steps to add jar file in android Studio.
+Step 1/..
+opwn android project dir. structure.
+Step 
+2.click on android tool and change it into project .
+3.now open your project directory..
+4open app directory ..
+and paste your jar file in libs dir. ...
+
+Select All 3 jar file and right click and then select add as library option.
+and add mnodule ok.
+
+
+
+(Tuesday 17 jul)...
+Data  storage...
+Local Storage (Mobile Phone).. Shared prefrences... File handling 
+Server Storage (Fire Base , )
+
+you have to enter the password.
+
+SHARED PREFRENCES...
+..  use non structural data storage.
+..  data stored under the .xml extension.
+..  data stored under the pair of keys and values.
+..  mostly used in session managment.(like login details storage.)
+ 
+How to make set prefrences file.
+
+sqLite...
+
+CURD operation ..
+create a java file in java directory.(for the database)
+
+FRIDAY 20JUL
+non structural database.. realtime database.
+
+sunday... 29th of july...
+   ... Android ...
+
+Tab View ...
+   sunday 5 aug 2018
+
+
+
+  DATA STORAGE....
+    there is two type of the data storage ...
+     .. local storage
+     .. global storage(server site storage)
+
+
+ LOCAL STORAGE ..
+  ..shared preferences..  used in the session management
+  ..File Handling..
+  ..sqlite DB..
+
