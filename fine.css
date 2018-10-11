@@ -1,49 +1,31 @@
- 
- body{
-   margin:0px;
-   padding:0px;
- }
-   #main{
-     margin-top:50px;
-     background-color:#BB1919;
-	 width:200%;
-     height:70px;	 
-   }
-     #text1
-	 {
-	    padding:15px;
-	    margin-left:120px;
-	    font:40px bold, sans-serif;
-		color:white;
-	 }
-	 a
-	 {
-	    text-decoration:none;
-		color:white;
-	 }
-	 #nav
-	 {
-	    margin-top:0px;
-	    margin-left:0px;
-		background-color:#BB1919;
-		height:30px;
-		width:100%;
-		
-	 }
-      ul
-	  {
-	    
-	    list-style-type:none;
-		padding:5px;
-		overflow:hidden;
-		margin-left:130px;
-	  }
-	  li
-	  {
-	    m
-    	border-right:2px,white,solid;
-	    color:white;
-	    display:block;
-		float:left;
-		
-	  }
+body
+{
+	margin:0;
+	padding:0;
+}
+	#topbar
+	{
+		margin-top:0px;
+		width:200%;
+		height:40px;
+		background-color:red;
+	}
+		  #logo
+		  {   
+		      position:relative;
+			  width:90px;
+			  height:30px;
+			  left:350px;
+			  top:5px;
+		  }
+    #sign
+	{
+		height:40px;
+		position:relative;
+		display:inline;
+		top:5px;
+		left:370px;
+		 border-left: 1px grey solid;
+	}
+	
+	
