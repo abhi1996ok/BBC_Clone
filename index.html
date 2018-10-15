@@ -3,31 +3,7 @@
 <head>
 <title>BBC NEWS</title>
 <link rel="stylesheet" type="text/css" href="fine.css">
-<script>
- function table()
- {
- 
-   var x = document.getElementById("dropTable");
-    alert(x);
-     if(x.style.display="none")
-	 {
-	  x.style.display="block";
-	 }
-	  else
-	  {
-	   x.style.display="none";
-	  }
- }
- 
- function kick(){
-  
-    var y =document.getElementById("drop");
-	  alert("the script is applied on to the page !");
-	   alert(x);
-	    y.addEventListener("click", table);
-}
-  kick();
-  table();
+<script type="text/javascript" src="myscript.js">
 </script>
 </head>
 <body>
@@ -54,8 +30,7 @@
 							
 							<th class="hv">Travel</th>
 							
-							<th id="drop" class="hv">
-							<input type="button" value="More" id="dropdown"></input>
+							<th id="drop" class="hv"> More
 							</th>
 						  <th id="searchBar"> <input type="text" placeholder="Search"></th>
 						  <th id="searchButton"><img id="imgSearchButton" src="images/search.PNG"></th>

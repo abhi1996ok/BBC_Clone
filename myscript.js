@@ -1,19 +1,19 @@
-function tableshow()
-{
-  var =x;
-   x =document.getElementById('dropTable');
-    if (x.style.display('none')) {
-        X.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-
- var x1=document.getElementById('more');
- x1.addEventListener('onclick',tableshow);
+ function main(){
+	 var c =document.getElementById('dropTable');
+	   
+	  if(c.style.display === "none")
+	  {
+		  c.style.display="block";
+	  }
+	  else{
+		  c.style.display="none";
+	  }
+ }
  function nothing()
   {
-	  alert("the script is applied on to the page !");
+	  var x=document.getElementById('drop');
+	  alert("Welcome to the BBC news!")
+	  x.onclick=main;
   }
-   
-    window.onload=nothing;
+    
+	 window.addEventListener("load",nothing,false);

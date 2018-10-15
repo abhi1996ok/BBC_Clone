@@ -47,11 +47,9 @@ body
 	{
 		width:100px;
 	}  
-    #dropdown
+    #drop
 	{
 		 width:100px;
-		 border-style:none;
-		 background:none;
 	}		
 		
     
@@ -107,7 +105,7 @@ body
 	   }
 	   #dropTable
 	   {
-		   display:none;
+		  display:none;
 	      height:115px;
 		  border:1px solid black;
 	     
