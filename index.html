@@ -3,6 +3,32 @@
 <head>
 <title>BBC NEWS</title>
 <link rel="stylesheet" type="text/css" href="fine.css">
+<script>
+ function table()
+ {
+ 
+   var x = document.getElementById("dropTable");
+    alert(x);
+     if(x.style.display="none")
+	 {
+	  x.style.display="block";
+	 }
+	  else
+	  {
+	   x.style.display="none";
+	  }
+ }
+ 
+ function kick(){
+  
+    var y =document.getElementById("drop");
+	  alert("the script is applied on to the page !");
+	   alert(x);
+	    y.addEventListener("click", table);
+}
+  kick();
+  table();
+</script>
 </head>
 <body>
              <!--Topbar is Starting here-->
@@ -12,42 +38,60 @@
 		    <!--table is used for the sequence of logo and text in a row -->
 				  <table >
 						  <tr>
-							<th id="bbclogo"><a href="index.html"><img id="logo" src="images/Capture.PNG"></a></th>
+							<th id="bbclogo"><img id="logo" src="images/Capture.PNG"></th>
 							
-							<th id="signup"><a href="index.html"><img id="logo1" src="images/Capture1.PNG"></th> 
+							<th id="signup" class="hv"><img id="logo1" src="images/Capture1.PNG"></th> 
 							
-							<th><a href="index.html">News</a></th>
+							<th class="hv">News</th>
 							
-							<th><a href="index.html">Weather</a></th>
+							<th class="hv">Weather</th>
 							
-							<th><a href="index.html">Sport</a></th>
+							<th class="hv">Sport</th>
 							
-							<th><a href="index.html">Shop</a></th>
+							<th class="hv">Shop</th>
 							
-							<th><a href="index.html">Earth</a></th>
+							<th class="hv">Earth</th>
 							
-							<th><a href="index.html">Travel</a></th>
+							<th class="hv">Travel</th>
 							
-							<th id="more">
-							<a href="index.html">
-							<!--Dropdown menu is made here -->
-							<select id="dropdown">
-								  <option value="more">More</option>
-								  <option value="Capital">Capital</option>
-								  <option value="cbbc">CBBC</option>
-								  <option value="arts">Arts</option>
-								  <option value="culture">Culture</option>
-								  <option value="cbeebies">CBeebies</option>
-								  <option value="makeitdigital">Make it digital</option>
-								  <option value="future">Future</option>
-							</select>
-						</a>
-						  </th>
+							<th id="drop" class="hv">
+							<input type="button" value="More" id="dropdown"></input>
+							</th>
 						  <th id="searchBar"> <input type="text" placeholder="Search"></th>
 						  <th id="searchButton"><img id="imgSearchButton" src="images/search.PNG"></th>
 						  </tr>
 				</table>	
         </div>	
+</div>
+
+        <!-- drop down table on the click of MORE in the upper menu in the top bar... -->
+<div id="dropTable">
+<div id ="table">
+<table>
+ <tr>
+ <td rowspan="3" class ="more1">MORE</td>
+  <td>Culture</td>
+  <td>Future</td>
+  <td>TV</td>
+  <td>Radio</td>
+  <td>CBBC</td>
+ </tr>
+ <tr>
+  <td>C Beebies</td>
+  <td >Food</td>
+  <td>Bitsize</td>
+  <td>Music</td>
+  <td>Arts</td>
+ </tr>
+ <tr>
+  <td>Make It Digital</td>
+  <td>Faster</td>
+  <td>Nature</td>
+  <td>Local</td>
+ 
+ </tr>
+</table>
+</div>
 </div>
             <!--Second Bar is starting here-->
 <div id="SecondBar">
